@@ -1,0 +1,32 @@
+body{
+    background-color: tomato;
+    text-align: center;
+    color: black;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: mycolor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+@keyframes mycolor{
+    from{box-shadow: 10px 10px 30px indigo;}
+    to{box-shadow: 10px 10px 30px cyan;}
+}
+p, span
+{
+    padding-top:10px;
+    font-family: fantasy;
+    font-size:25px;
+}
+#score{
+    float: left;
+    margin-left: 100px;
+}
+#timer{
+    float: right;
+    margin-right: 100px;
+}
